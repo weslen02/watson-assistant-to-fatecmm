@@ -1,0 +1,1087 @@
+{
+  "intents": [
+    {
+      "intent": "fatec_history",
+      "examples": [
+        {
+          "text": "quando a fatec foi fundada"
+        },
+        {
+          "text": "qual a idade da fatec"
+        },
+        {
+          "text": "quantos anos a fatec tem"
+        },
+        {
+          "text": "quem foi centro paula souza"
+        },
+        {
+          "text": "quem era ctps"
+        },
+        {
+          "text": "quem é centro paula souza"
+        },
+        {
+          "text": "quando a fatec surgiu"
+        },
+        {
+          "text": "quem criou a fatec"
+        }
+      ],
+      "description": "Ações sobre a instituição Fatec Mogi Mirim"
+    },
+    {
+      "intent": "concourse",
+      "examples": [
+        {
+          "text": "prova do concurso"
+        },
+        {
+          "text": "qual o concurso aberto"
+        },
+        {
+          "text": "qual o edital do concurso"
+        },
+        {
+          "text": "qual o horario do concurso"
+        },
+        {
+          "text": "onde será o concurso"
+        },
+        {
+          "text": "quando é o vestibular"
+        },
+        {
+          "text": "quais documentos preciso para o vestibular"
+        },
+        {
+          "text": "qual documento para o concurso"
+        },
+        {
+          "text": "que tipo de documento para o concurso"
+        },
+        {
+          "text": "hora do vestibular"
+        },
+        {
+          "text": "qual é o dia da prova do vestibular"
+        },
+        {
+          "text": "prova do vestibular"
+        },
+        {
+          "text": "como é o profissional de mecatronica"
+        },
+        {
+          "text": "o que faz em mecatronica"
+        },
+        {
+          "text": "o que faz na area de mecanica"
+        },
+        {
+          "text": "o que faz na area de analise e desenvolvimento de sistemas"
+        },
+        {
+          "text": "quanto ganha na area de analise e desenvolvimento de sistemas"
+        },
+        {
+          "text": "quanto ganha na area de mecanica"
+        },
+        {
+          "text": "quanto ganha na area de ads"
+        },
+        {
+          "text": "o que faz a área da disciplia"
+        },
+        {
+          "text": "documentos para vestibular"
+        },
+        {
+          "text": "Qual o dia do concurso"
+        }
+      ],
+      "description": "Ações relativas ao concurso, como data e horário."
+    },
+    {
+      "intent": "collaborator_email",
+      "examples": [
+        {
+          "text": "Qual o email do professor"
+        },
+        {
+          "text": "onde econtro o email dos professores"
+        },
+        {
+          "text": "qual o email dos professores"
+        },
+        {
+          "text": "qual o email dos funcionarios"
+        },
+        {
+          "text": "qual o email do funcionario"
+        },
+        {
+          "text": "como saber o email do professor"
+        },
+        {
+          "text": "como saber o email do funcionario"
+        },
+        {
+          "text": "como sei o email do professor"
+        },
+        {
+          "text": "como contatar o professor"
+        }
+      ],
+      "description": "Trata dos e-mails do corpo docente e quadro de funcionários que possam disponibilizar tais contatos."
+    },
+    {
+      "intent": "regards-action",
+      "examples": [
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Boa noite"
+        }
+      ],
+      "description": "Ações de saudação"
+    },
+    {
+      "intent": "fatec_contact",
+      "examples": [
+        {
+          "text": "qual o e-mail da fatec"
+        },
+        {
+          "text": "quem cuida do estagio"
+        },
+        {
+          "text": "qual docente cuida do estagio"
+        },
+        {
+          "text": "qual professor do estagio"
+        },
+        {
+          "text": "quem e responsavel no estagio"
+        },
+        {
+          "text": "que hroas é o estagio"
+        },
+        {
+          "text": "qual o site do siga"
+        },
+        {
+          "text": "qual o endereco do siga"
+        },
+        {
+          "text": "qual endereço do site da fatec"
+        },
+        {
+          "text": "qual o site da fatec"
+        },
+        {
+          "text": "qual o zap da fatec"
+        },
+        {
+          "text": "qual o whats da fatec"
+        },
+        {
+          "text": "qual o email do setor de estágio"
+        },
+        {
+          "text": "qual o telefone do setor de estagio"
+        },
+        {
+          "text": "qual o contato da fatec"
+        },
+        {
+          "text": "como contato a fatec"
+        },
+        {
+          "text": "qual o telefone da fatec"
+        },
+        {
+          "text": "qual o horario de funcionamento da secretária"
+        },
+        {
+          "text": "que horas a secretária abre"
+        },
+        {
+          "text": "qual o horario de funcionamento da fatec"
+        },
+        {
+          "text": "que horas a fatec abre"
+        }
+      ],
+      "description": "Ações sobre contatos e horários da Fatec Mogi Mirim."
+    },
+    {
+      "intent": "requirements",
+      "examples": [
+        {
+          "text": "ra novo paga?"
+        },
+        {
+          "text": "tenho que pagar uma carteirinha nova"
+        },
+        {
+          "text": "tenho que pagar novo ra"
+        },
+        {
+          "text": "se eu perder meu ra tenho que pagar"
+        },
+        {
+          "text": "quanto custa uma carteirinha nova"
+        },
+        {
+          "text": "quanto custa um ra novo"
+        },
+        {
+          "text": "onde encontro os requerimentos"
+        },
+        {
+          "text": "minha carteira esta pronta"
+        },
+        {
+          "text": "meu ra esta pronto"
+        },
+        {
+          "text": "como faço um ra novo"
+        },
+        {
+          "text": "como faço para gerar uma carteirinha nova"
+        },
+        {
+          "text": "como faço o requerimento de uma carteirinha nova"
+        },
+        {
+          "text": "carteirinha de estudante"
+        },
+        {
+          "text": "carteira de estutande"
+        }
+      ],
+      "description": "Para questões educacionais e requerimentos à secretária"
+    },
+    {
+      "intent": "internship",
+      "examples": [
+        {
+          "text": "quem pode fazer iniciacao cientifica"
+        },
+        {
+          "text": "quem pode fazer equivalencia"
+        },
+        {
+          "text": "o que precisa para o estagio"
+        },
+        {
+          "text": "o que e preciso para iniciacao cientifica"
+        },
+        {
+          "text": "o que é requerido para o estagio"
+        },
+        {
+          "text": "qual a documentação para o estágio"
+        },
+        {
+          "text": "quais empresas conveniadas para estágio"
+        },
+        {
+          "text": "onde posso fazer o estagio"
+        },
+        {
+          "text": "como faço equivalencia"
+        },
+        {
+          "text": "qual empresa posso fazer estagio"
+        },
+        {
+          "text": "qual documento precisa para o estagio"
+        },
+        {
+          "text": "documentos para estagio"
+        },
+        {
+          "text": "qual documento para iniciacao cientifica"
+        },
+        {
+          "text": "quem pode fazer estagio"
+        },
+        {
+          "text": "oq precisa para estagiar"
+        },
+        {
+          "text": "o que precisa para quivalencia"
+        }
+      ],
+      "description": "Ações que trabalham a parte de estágio."
+    },
+    {
+      "intent": "calendar",
+      "examples": [
+        {
+          "text": "quando posso trancar a disciplina"
+        },
+        {
+          "text": "qndo posso trancar o semestre"
+        },
+        {
+          "text": "quando posso trancar faculdade"
+        },
+        {
+          "text": "qual data de disciplinas isoladas"
+        },
+        {
+          "text": "data de trancamento"
+        },
+        {
+          "text": "quando é as disciplinas isoladas"
+        }
+      ],
+      "description": "Ações referente ao calendário escolar."
+    },
+    {
+      "intent": "vestibular-action",
+      "examples": [],
+      "description": "Ações/questões, referentes ao vestibular."
+    },
+    {
+      "intent": "event_actions",
+      "examples": [
+        {
+          "text": "quando é o evento?"
+        },
+        {
+          "text": "quando é a corrida da ladeira?"
+        },
+        {
+          "text": "que dia é o fatec portas abertas?"
+        },
+        {
+          "text": "qual o dia do fatec cultural?"
+        },
+        {
+          "text": "gostaria de saber sobre os eventos da fatec"
+        }
+      ],
+      "description": "Eventos que ocorrem na Fatec"
+    },
+    {
+      "intent": "matriculation",
+      "examples": [
+        {
+          "text": "Qual o dia da matrícula"
+        },
+        {
+          "text": "matricula do estagio"
+        },
+        {
+          "text": "a matricula é online"
+        },
+        {
+          "text": "qual data de rematricula"
+        },
+        {
+          "text": "qual a data de alteração da matrícula"
+        },
+        {
+          "text": "qual a hora pra matricula"
+        },
+        {
+          "text": "qual o horario para matricular"
+        },
+        {
+          "text": "como matricular na fatec"
+        },
+        {
+          "text": "documentos para matricula"
+        },
+        {
+          "text": "data da matricula"
+        },
+        {
+          "text": "como faço a matrícula"
+        },
+        {
+          "text": "onde faço a matricula"
+        }
+      ],
+      "description": "Ações sobre matrícula."
+    },
+    {
+      "intent": "exam",
+      "examples": [
+        {
+          "text": "prova da rita"
+        },
+        {
+          "text": "prova de engenharia de sw"
+        },
+        {
+          "text": "prova de sw"
+        },
+        {
+          "text": "prova do marcio"
+        },
+        {
+          "text": "prova do pc"
+        },
+        {
+          "text": "prova de engenharia de software"
+        },
+        {
+          "text": "prova do sandro"
+        },
+        {
+          "text": "Qual o dia da prova de Matemática discreta"
+        },
+        {
+          "text": "Qual o dia da prova do professor"
+        }
+      ],
+      "description": "Ações para respostas a perguntas de alunos Fatec veteranos com dúvida sobre os exames bimestrais."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "concourse_class",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "concurso",
+          "synonyms": [
+            "vestibular",
+            "prova do vestibular",
+            "prova do concurso",
+            "concurso",
+            "do concurso",
+            "do vestibular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prova do concurso",
+          "synonyms": [
+            "prova do vestibular"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "age_extend_fatec_history",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "qual a idade da fatec",
+          "synonyms": [
+            "quantos anos a fatec tem",
+            "que ano a fatec foi fundada",
+            "que ano a fatec surgiu",
+            "idade da fatec mogi mirim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ctps_extend_fatec_history",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "quem era centro paula souza",
+          "synonyms": [
+            "quem foi centro paula souza",
+            "quem é centro paula souza",
+            "o que é ctps",
+            "quem era ctps"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "formal_extend_regards_action",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "veterans_extend_exam",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "prova",
+          "synonyms": [
+            "exame"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "frame",
+      "title": "exam",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber sobre os exames/provas bimestrais, você precisa acessar o siga, ou procurar o professor da disciplina. Fatecano, a direção e o seu amigo NomeDoBot agradece! 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592062014395",
+      "conditions": "#exam",
+      "dialog_node": "node_9_1592062036778"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1592062036778",
+      "variable": "$type_exam_veterans",
+      "dialog_node": "slot_1_1592062272140"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caso queira saber sobre vestibular digite <strong>vestibular</strong>"
+              },
+              {
+                "text": "Para vestibular digite <strong>vestibular</strong>"
+              },
+              {
+                "text": "Para saber sobre concurso digite <strong>vestibular</strong>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1592059790316",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1592059790324",
+      "previous_sibling": "handler_9_1592059790324"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592059790316",
+      "context": {
+        "concourse_class": "@concourse_class"
+      },
+      "conditions": "@concourse_class",
+      "event_name": "input",
+      "dialog_node": "handler_9_1592059790324"
+    },
+    {
+      "type": "folder",
+      "title": "Fatec About",
+      "parent": "node_5_1592051878187",
+      "dialog_node": "node_7_1592068106895",
+      "previous_sibling": "node_2_1592062014395"
+    },
+    {
+      "type": "folder",
+      "title": "Class Room",
+      "parent": "node_5_1592051878187",
+      "dialog_node": "node_2_1592062014395",
+      "previous_sibling": "node_4_1592061752299"
+    },
+    {
+      "type": "folder",
+      "title": "Office Room",
+      "parent": "node_5_1592051878187",
+      "dialog_node": "node_4_1592061752299"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hallo Fatecano, como posso ajudar você hoje? 🤓"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1583006980545",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1583007342874",
+      "previous_sibling": "response_2_1583007092059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@formal_extend_regards_actionpara você também 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1583006980545",
+      "conditions": "@formal_extend_regards_action",
+      "dialog_node": "response_2_1583007092059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa noite Fatecano, como posso ajudar? $tempo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1589030535005",
+      "previous_sibling": "response_8_1585530133970"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa tarde Fatecano, como posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "now().before('18:00:00')",
+      "dialog_node": "response_8_1585530133970",
+      "previous_sibling": "response_6_1583006927720"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bom  dia Fatecano, como posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "conditions": "now().before('12:00:00')",
+      "dialog_node": "response_6_1583006927720"
+    },
+    {
+      "type": "standard",
+      "title": "internship",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para "
+              },
+              {
+                "text": "Você pode obter informações sobre o estágio, iniciação científica, equivalência e escritório de carreiras <a href=\"http://www.fatecmm.edu.br/index.php/escritorio-de-carreiras\">Clicando Aqui</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#internship",
+      "dialog_node": "node_10_1592098257336",
+      "previous_sibling": "node_5_1592096467270"
+    },
+    {
+      "type": "standard",
+      "title": "collaborator_email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<h4>Segue abaixo uma lista com e-mail do quadro de colaboradores</h4>\n<ul>\n    <li>Professor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n    <li>Professor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n    <li>Professor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n    <li>Professor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n    <li>Professor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n    <li>Diretor xxxxx: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">xxxxxxxx</a></li>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#collaborator_email",
+      "dialog_node": "node_5_1592096467270",
+      "previous_sibling": "node_2_1592092975813"
+    },
+    {
+      "type": "frame",
+      "title": "concourse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As informações sobre o vestibular estão disponível no painel de acesso ao vestibular da Fatec, basta acessá-lo <a href=\"https://www.vestibularfatec.com.br/home/\" target=\"_bank\">clicando aqui</a>, lá você poderá cadastrar-se, acessar suas informações referente ao vestibular, gabarito e mais.\nCaso queira saber mais sobre a área da disciplina, acesse o site da <a href=\"http://www.fatecmm.edu.br/index.php/cursos\">Fatec Mogi Mirim</a> e clique sobre o curso que deseja cursar, lá você poderá obter mais detalhes. Obrigado! 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#concourse",
+      "dialog_node": "node_1_1592058396635",
+      "previous_sibling": "node_3_1589023839713"
+    },
+    {
+      "type": "standard",
+      "title": "requirements",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essas informações estão disponíveis no site da Fatec na guia da Secretária Academica, você pode acessá-la <a href=\"http://www.fatecmm.edu.br/index.php/secretaria-academica\">clicando aqui</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#requirements",
+      "dialog_node": "node_9_1592100798952",
+      "previous_sibling": "node_10_1592098257336"
+    },
+    {
+      "type": "standard",
+      "title": "fatec_contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<h4>Contatos</h4>\n<ul>\n    <li>E-mail: <a href=\"mailto:f163dir\\@cps.sp.gov.br\">Fatemm</a></li>\n    <li>E-mail: <a href=\"mailto:\">Estágio e-mail</a></li>\n    <li>Site: <a href=\"http://www.fatecmm.edu.br/\">fatec.edu.br</a></li>\n    <li>Facebook: <a href=\"https://www.facebook.com/fatecmm/\">fatecmm</a></li>\n    <li>Site do Siga: <a href=\"https://siga.cps.sp.gov.br/aluno/login.aspx\">Siga</a></li>\n    <li>Telefones: (19) 3806-2181 e 3806-3139</li>\n    <li>Telefone do estágio: (19) 3333-3333</li>\n    <li>WhatsApp: (19) 9-9152-9643</li>\n    <li>End: Rua Ariovaldo Silveira Franco, 567 Jd. 31 de Março - Mogi Mirim - CEP: 13801-005</li>\n</ul>\n<br/>\n<h4>Horários de funcionamento</h4>\n<ul>\n    <li>Secretária: De seg. à sexta: das 8h às 11h / das 13h às 17h / e das 18h30 às 22h <a href=\"http://www.fatecmm.edu.br/index.php/secretaria-academica\">Saiba Mais</a>.</li>\n    <li>Aulas: Seg - Sex | 7:30 ás 22:30 (Sáb | 7:30 ás 13:00)</li>\n    <li>Estágio/ Orientadores: Seg e Qua Manhã | 7:30 ás 10:00 <a href=\"http://www.fatecmm.edu.br/index.php/escritorio-de-carreiras\">Saiba Mais</a>.</li>\n    <li>Estágio/ Orientadores: Seg e Qua Noite | 19:30 ás 21:00 <a href=\"http://www.fatecmm.edu.br/index.php/escritorio-de-carreiras\">Saiba Mais</a>.</li>\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#fatec_contact",
+      "dialog_node": "node_2_1592092975813",
+      "previous_sibling": "node_2_1592066062280"
+    },
+    {
+      "type": "frame",
+      "title": "matriculation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Detalhes da matrícula, como prazo, data, local, e documentos estão disponíveis na guia Matrícula no site da <a href=\"#\" target=\"_blank\">Fatec Mogi Mirim</a>.\nPara informações correntes como data de trancamento, alteração, rematrícula etc. Basta acessar o calendário escolar também disponível no <a href=\"http://www.fatecmm.edu.br/\" target=\"_blank\">site da Fatec </a> na guia <strong>calendário</strong>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "context": {},
+      "conditions": "#matriculation",
+      "dialog_node": "node_2_1592066062280",
+      "previous_sibling": "node_1_1592058396635"
+    },
+    {
+      "type": "standard",
+      "title": "events",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber sobre eventos na Fatec <a href=\"$fatec_url\" target=\"_blank\">clique aqui</a>."
+              },
+              {
+                "text": "Fatecano, as informações sobre enventos estão disponíveis no site da Fatec, saiba mais <a href=\"$fatec_url/index.php/noticias-da-fatec\" target=\"_blank\">cliacando aqui</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1592061752299",
+      "conditions": "#event_actions",
+      "dialog_node": "node_3_1589023839713"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1592085013370",
+      "dialog_node": "slot_1_1592085038024"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592085038024",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1592085038033",
+      "previous_sibling": "handler_5_1592085038033"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1592085038024",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592085038033"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1592058396635",
+      "variable": "$concourse_class",
+      "dialog_node": "slot_2_1592059790316"
+    },
+    {
+      "type": "standard",
+      "title": "fatec_history_age",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A unidade da Fatec Mogi Mirim foi inaugurada em 2007, sua idade é  $age anos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592068106895",
+      "context": {
+        "age": "<? ( T(Integer).parseInt(today().split('-').get(0)) - ( new Date(2007,06,06).year ) ) ?>"
+      },
+      "conditions": "#fatec_history && @age_extend_fatec_history",
+      "dialog_node": "node_2_1592085013370",
+      "previous_sibling": "node_8_1592074792849"
+    },
+    {
+      "type": "standard",
+      "title": "fatec_history_ctps",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<h3>CENTRO PAULA SOUZA</h3>\n<br/>\n<p>O Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS) é uma instituição vinculada à Secretaria de Desenvolvimento do Estado de São Paulo, destinada a articular, realizar e desenvolver a educação profissional nos níveis Médio/Técnico e Superior/Tecnológico.<a href=\"https://www.cps.sp.gov.br/\"> Saiba mais</a>.</p>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592068106895",
+      "conditions": "#fatec_history && @ctps_extend_fatec_history",
+      "dialog_node": "node_8_1592074792849"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry Fatecano, mas a pergunta está um pouco ambígua para mim, essa minha inteligencia artifical vive me confundindo 😅, pode reformular a pergunta por favor? 🙏"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1592062272140",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1592062272148",
+      "previous_sibling": "handler_8_1592062272148"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1592062272140",
+      "context": {
+        "type_exam_veterans": "@veterans_extend_exam"
+      },
+      "conditions": "@veterans_extend_exam",
+      "event_name": "input",
+      "dialog_node": "handler_8_1592062272148"
+    },
+    {
+      "type": "standard",
+      "title": "regards",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#regards-action",
+      "description": "",
+      "dialog_node": "node_6_1583006980545",
+      "previous_sibling": "node_5_1592051878187"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_6_1583006980545"
+    },
+    {
+      "type": "standard",
+      "title": "anything-else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              },
+              {
+                "text": "Desculpe, mas não consegui entender, poderia reformular a pergunta para que eu possa tentar te ajudar?"
+              },
+              {
+                "text": "Humm, não consegui entender, verifique se está escrevendo corretamente, e tente reformular sua pergunta por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "Bem-vindo",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "Fatec's Folder",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1592051878187"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": ""
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "FATEC Faculd. de tecnologia de Mogi Mirim",
+  "language": "pt-br",
+  "description": ""
+}
