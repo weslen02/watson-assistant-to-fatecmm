@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- back btn top -->
+    <link rel="stylesheet" href="./style/backTop.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <!-- open iconic -->
+    <link rel="stylesheet" href="./open-iconic/font/css/open-iconic-bootstrap.min.css">
+
+    <!-- starwars glyph icons -->
+    <link rel="stylesheet" href="./starwars-glyphicons/css/starwars-glyphicons.css">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="icon" href="./open-iconic/svg/infinity.svg  ">
+    <title>API Documentation</title>
+</head>
+
+<body class="lead">
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+
+            <div class="text-center">
+                <h1 class="display-4">API</h1>
+            </div>
+
+            <div class="list-group list-group-flush">
+                <a href="#one" class="list-group-item list-group-item-action bg-light">#1 - Video 1</a>
+                <a href="#two" class="list-group-item list-group-item-action bg-light">#2 - Video 2</a>
+                <a href="#seven" class="list-group-item list-group-item-action bg-light">#7 - About</a>
+            </div>
+
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper" class="mb-5">
+            <!-- container -->
+            <div class="container-fluid">
+                <div class="warningBox warningBox-bd ">
+                    <h5 id="warning">Warning</h5>
+                    <p>texto aqui: </p>
+                </div>
+
+                <!-- ---------------------------------------------------------------- #1 --------------------------------------------------------- -->
+                <div id="one">
+                    <h2 class="mt-4">#1 - video 1</h2>
+
+                    <div class="warning-bg-full ">
+                        <span class="oi oi-info">
+                            texto
+                        </span>
+                    </div>
+
+                    <p>Como a imagem abaixo:</p>
+                    <div class="text-center">
+                        <img src=".\img\img001.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------------- #1 --------------------------------------------------------- -->
+
+                <hr>
+
+                <!-- ---------------------------------------------------------------- #2 --------------------------------------------------------- -->
+                <div id="two">
+                    <h2 class="mt-4">#2 - video 2</h2>
+                    <p>texto:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">texto <a href="https://www.youtube.com/watch?v=5QBOXecPo38" target="_blank" rel="noopener noreferrer">Clique aqui</a>.</li>
+                        <li class="list-group-item">texto - <a href="https://www.youtube.com/watch?v=0D50v9aLo2I" target="_blank" rel="noopener noreferrer">Clique aqui</a>.</li>
+                        
+                        <li class="list-group-item">
+                            <p>titulo</p>
+                            <!--<video class="embed-responsive-item" controls>
+                                 <source src="./video/002.mp4" type="video/mp4"> 
+                                    
+                            </video>-->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0D50v9aLo2I" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ---------------------------------------------------------------- #2 --------------------------------------------------------- -->
+
+                <hr>
+
+                <!-- ---------------------------------------------------------------- #7 --------------------------------------------------------- -->
+                <div id="seven">
+                    <h2 class="mt-4">#7 - About</h2>
+                    <div class="text-center">
+                        <p>Documentação - V1.0</p>
+                        <p>Ultima atualização - 2020</p>
+                        <p>Agradecemos como alunos, Weslen, Nathalia e Danilo, ao teamwork realizado junto ao corpo docente, para que este projeto tenha caminhado em busca ao sucesso,
+                            visando a simplificação da instituição e melhoria da mesma.</p>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------------- #7 --------------------------------------------------------- -->
+
+            </div>
+
+            <!-- button return to top -->
+            <a id="back-to-top" href="#" class="btn btn-info btn-lg back-to-top" role="button">
+                <span class="oi oi-chevron-top"></span>
+            </a>
+            <!-- /#container -->
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- btn back to top -->
+    <!-- <a href="#top" class=".octicon-chevron-up"></a> -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+    <!-- <script src="./js/colorblindStyleHanlder.js"></script> -->
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+
+</html>
