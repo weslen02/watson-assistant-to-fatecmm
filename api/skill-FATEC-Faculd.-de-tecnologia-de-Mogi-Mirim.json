@@ -4,28 +4,31 @@
       "intent": "fatec_history",
       "examples": [
         {
-          "text": "quando a fatec foi fundada"
-        },
-        {
           "text": "qual a idade da fatec"
         },
         {
-          "text": "quantos anos a fatec tem"
+          "text": "quando a fatec foi fundada"
         },
         {
-          "text": "quem foi centro paula souza"
-        },
-        {
-          "text": "quem era ctps"
-        },
-        {
-          "text": "quem é centro paula souza"
+          "text": "quem criou a fatec"
         },
         {
           "text": "quando a fatec surgiu"
         },
         {
-          "text": "quem criou a fatec"
+          "text": "quem é centro paula souza"
+        },
+        {
+          "text": "quem era ctps"
+        },
+        {
+          "text": "quem foi centro paula souza"
+        },
+        {
+          "text": "quantos anos a fatec tem"
+        },
+        {
+          "text": "quantos anos tem a fatec"
         }
       ],
       "description": "Ações sobre a instituição Fatec Mogi Mirim"
@@ -33,27 +36,6 @@
     {
       "intent": "concourse",
       "examples": [
-        {
-          "text": "prova do concurso"
-        },
-        {
-          "text": "qual o concurso aberto"
-        },
-        {
-          "text": "qual o edital do concurso"
-        },
-        {
-          "text": "qual o horario do concurso"
-        },
-        {
-          "text": "onde será o concurso"
-        },
-        {
-          "text": "quando é o vestibular"
-        },
-        {
-          "text": "quais documentos preciso para o vestibular"
-        },
         {
           "text": "qual documento para o concurso"
         },
@@ -67,22 +49,16 @@
           "text": "qual é o dia da prova do vestibular"
         },
         {
+          "text": "prova do concurso"
+        },
+        {
           "text": "prova do vestibular"
         },
         {
-          "text": "como é o profissional de mecatronica"
+          "text": "qual o concurso aberto"
         },
         {
-          "text": "o que faz em mecatronica"
-        },
-        {
-          "text": "o que faz na area de mecanica"
-        },
-        {
-          "text": "o que faz na area de analise e desenvolvimento de sistemas"
-        },
-        {
-          "text": "quanto ganha na area de analise e desenvolvimento de sistemas"
+          "text": "qual o edital do concurso"
         },
         {
           "text": "quanto ganha na area de mecanica"
@@ -98,6 +74,33 @@
         },
         {
           "text": "Qual o dia do concurso"
+        },
+        {
+          "text": "qual o horario do concurso"
+        },
+        {
+          "text": "onde será o concurso"
+        },
+        {
+          "text": "quando é o vestibular"
+        },
+        {
+          "text": "quais documentos preciso para o vestibular"
+        },
+        {
+          "text": "como é o profissional de mecatronica"
+        },
+        {
+          "text": "o que faz em mecatronica"
+        },
+        {
+          "text": "o que faz na area de mecanica"
+        },
+        {
+          "text": "o que faz na area de analise e desenvolvimento de sistemas"
+        },
+        {
+          "text": "quanto ganha na area de analise e desenvolvimento de sistemas"
         }
       ],
       "description": "Ações relativas ao concurso, como data e horário."
@@ -106,31 +109,31 @@
       "intent": "collaborator_email",
       "examples": [
         {
-          "text": "Qual o email do professor"
-        },
-        {
-          "text": "onde econtro o email dos professores"
+          "text": "qual o email dos funcionarios"
         },
         {
           "text": "qual o email dos professores"
         },
         {
-          "text": "qual o email dos funcionarios"
+          "text": "onde econtro o email dos professores"
         },
         {
-          "text": "qual o email do funcionario"
-        },
-        {
-          "text": "como saber o email do professor"
-        },
-        {
-          "text": "como saber o email do funcionario"
+          "text": "como contatar o professor"
         },
         {
           "text": "como sei o email do professor"
         },
         {
-          "text": "como contatar o professor"
+          "text": "como saber o email do funcionario"
+        },
+        {
+          "text": "como saber o email do professor"
+        },
+        {
+          "text": "qual o email do funcionario"
+        },
+        {
+          "text": "Qual o email do professor"
         }
       ],
       "description": "Trata dos e-mails do corpo docente e quadro de funcionários que possam disponibilizar tais contatos."
@@ -139,6 +142,9 @@
       "intent": "regards-action",
       "examples": [
         {
+          "text": "e ai"
+        },
+        {
           "text": "Boa tarde"
         },
         {
@@ -146,6 +152,18 @@
         },
         {
           "text": "Boa noite"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "como vai"
+        },
+        {
+          "text": "tudo bem"
+        },
+        {
+          "text": "saudacoes"
         }
       ],
       "description": "Ações de saudação"
@@ -155,6 +173,9 @@
       "examples": [
         {
           "text": "qual o e-mail da fatec"
+        },
+        {
+          "text": "como contato a fatec"
         },
         {
           "text": "quem cuida do estagio"
@@ -197,9 +218,6 @@
         },
         {
           "text": "qual o contato da fatec"
-        },
-        {
-          "text": "como contato a fatec"
         },
         {
           "text": "qual o telefone da fatec"
@@ -458,6 +476,13 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "prova do concurso",
+          "synonyms": [
+            "prova do vestibular"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "concurso",
           "synonyms": [
             "vestibular",
@@ -466,13 +491,6 @@
             "concurso",
             "do concurso",
             "do vestibular"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "prova do concurso",
-          "synonyms": [
-            "prova do vestibular"
           ]
         }
       ],
@@ -484,12 +502,27 @@
         {
           "type": "synonyms",
           "value": "qual a idade da fatec",
-          "synonyms": [
-            "quantos anos a fatec tem",
-            "que ano a fatec foi fundada",
-            "que ano a fatec surgiu",
-            "idade da fatec mogi mirim"
-          ]
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quantos anos a fatec tem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "que ano a fatec surgiu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "idade da fatec mogi mirim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "que ano a fatec foi fundada",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -515,7 +548,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Boa tarde",
+          "value": "Bom dia",
           "synonyms": []
         },
         {
@@ -525,7 +558,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Bom dia",
+          "value": "Boa tarde",
           "synonyms": []
         }
       ],
@@ -675,7 +708,7 @@
           {
             "values": [
               {
-                "text": "@formal_extend_regards_actionpara você também 😊"
+                "text": "@formal_extend_regards_action para você também 😊"
               }
             ],
             "response_type": "text",
