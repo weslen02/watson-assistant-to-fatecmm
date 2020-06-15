@@ -7,11 +7,6 @@ body {
 }
 
 #sidebar-wrapper {
-    position: fixed;
-    width: 240px;
-    z-index: 1;
-    overflow-x: hidden;
-    padding: 8px 0;
     min-height: 100vh;
     margin-left: -15rem;
     -webkit-transition: margin .25s ease-out;
@@ -31,8 +26,6 @@ body {
 
 #page-content-wrapper {
     min-width: 100vw;
-    margin-left: 240px;
-    margin-top: 20px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
