@@ -6,4 +6,4 @@ Esse repositório visa o compartilhamento da API trabalhada para a Faculdade Fat
   <br/>
 </p>
 
-> **Conhecimento** bom é, **conhecimento compartilhado**.
+> **Conhecimento** bom, é **conhecimento compartilhado**.
